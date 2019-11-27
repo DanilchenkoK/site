@@ -25,8 +25,7 @@
                             </div>
                             <div class="card-body">
                                 <strong class="card-title"><?= htmlspecialchars($books[$i]['BookName'], ENT_QUOTES) ?></strong>
-                                <p class="card-text"><?= htmlspecialchars($books[$i]['Author'], ENT_QUOTES) ?></p>
-                                <a href="#" class="btn btn-outline-primary">Заказать</a>
+                                <p class="card-text"><?= htmlspecialchars($books[$i]['Author'], ENT_QUOTES) ?></p>                               
                             </div>
                         </div>
                     </div>
