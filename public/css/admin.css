@@ -1,0 +1,83 @@
+.login-card {
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.img-slice {
+    max-width: 210px;
+}
+
+.w-lg-30 {
+    min-width: 30%;
+}
+
+.pos-fixed {
+    position: fixed;
+    width: 100%;
+}
+
+.container-global {
+    position: absolute;
+    width: 80%;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.container-footer {
+    position: fixed;
+    width: 80%;
+    height: 40px;
+    bottom: 10px;
+    right: 0;
+    z-index: 0;
+}
+
+.sidenav {
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    top: 50px;
+    left: 0;
+}
+
+@media screen and (max-width: 1210px) {
+    .container-global,
+    .container-footer {
+        width: 75%;
+    }
+    .sidenav {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .login-card {
+        margin-top: 50px;
+    }
+    .w-sm-100 {
+        min-width: 100%;
+    }
+    .img-slice {
+        max-width: 75%;
+    }
+    .pos-fixed {
+        z-index: 99;
+        width: 100%;
+    }
+    .sidenav {
+        position: relative;
+        width: 100%;
+        top: 0;
+    }
+    .container-global {
+        position: relative;
+        width: auto;
+        top: 55px;
+    }
+    .container-footer {
+        position: relative;
+        width: auto;
+        height: auto;
+    }
+}
